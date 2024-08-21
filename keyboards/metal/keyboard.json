@@ -20,8 +20,9 @@
         "handedness": {
             "pin": "GP29"
         },
+        "soft_serial_pin": "GP3",
         "transport": {
-            "protocol": "i2c"
+            "protocol": "serial"
         }
     },
     "matrix_pins": {
