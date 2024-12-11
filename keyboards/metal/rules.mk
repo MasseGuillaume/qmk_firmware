@@ -1,1 +1,2 @@
 SERIAL_DRIVER = vendor
+AUDIO_ENABLE = yes

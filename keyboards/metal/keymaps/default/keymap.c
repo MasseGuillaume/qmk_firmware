@@ -9,6 +9,14 @@ enum layers
     _NUMPAD = 4
 };
 
+#define AUDIO_PIN GP3
+
+#ifdef AUDIO_ENABLE
+#define STARTUP_SONG SONG(STARTUP_SOUND)
+#endif
+
+// keep the homerow on all the layers
+
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_ALPHA] = LAYOUT(
 /*
