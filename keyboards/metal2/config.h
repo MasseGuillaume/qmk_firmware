@@ -1,0 +1,17 @@
+//
+#define SPLIT_HAND_PIN_LOW_IS_LEFT
+#define MASTER_RIGHT
+
+// -- Trackpad --
+#define AZOTEQ_IQS5XX_TPS65
+#define AZOTEQ_IQS5XX_ROTATION_270
+
+#define I2C1_SCL_PIN GP15
+#define I2C1_SDA_PIN GP14
+
+// -- Audio --
+#define AUDIO_PIN GP4
+#define AUDIO_PWM_DRIVER PWMD2
+#define AUDIO_PWM_CHANNEL RP2040_PWM_CHANNEL_A
+#define AUDIO_INIT_DELAY
+#define AUDIO_CLICKY
