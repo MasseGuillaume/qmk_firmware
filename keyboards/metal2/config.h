@@ -1,9 +1,14 @@
-//
+// -- Split --
 #define SPLIT_HAND_PIN_LOW_IS_LEFT
 #define MASTER_RIGHT
 
+#define SERIAL_USART_FULL_DUPLEX
+#define SERIAL_USART_TX_PIN GP0
+#define SERIAL_USART_RX_PIN GP1
+
 // -- Trackpad --
 #define AZOTEQ_IQS5XX_TPS65
+
 #define AZOTEQ_IQS5XX_ROTATION_270
 
 #define I2C1_SCL_PIN GP15
