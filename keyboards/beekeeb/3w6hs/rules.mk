@@ -1,3 +1,4 @@
 CUSTOM_MATRIX = lite
 SRC += matrix.c
 I2C_DRIVER_REQUIRED = yes
+UNICODE_COMMON = yes
